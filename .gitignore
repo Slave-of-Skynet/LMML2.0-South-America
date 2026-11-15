@@ -1,0 +1,10 @@
+.env
+.venv/
+**/__pycache__/
+*.pyc
+**/outputs/
+**/output/
+**/FLAG.txt
+**/flag.txt
+**/flags.txt
+**/answer.txt

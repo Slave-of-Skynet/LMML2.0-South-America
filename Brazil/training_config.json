@@ -1,0 +1,31 @@
+{
+  "rank": 0,
+  "source": null,
+  "target": null,
+  "steps": 1000,
+  "every": 100,
+  "batch": 24,
+  "lr": 0.0002,
+  "radius": 0.0095,
+  "source_weight": 2.0,
+  "clean_weight": 1.0,
+  "other_weight": 1.0,
+  "kd": 1.0,
+  "layers": "all",
+  "name": "run1",
+  "resume": null,
+  "spec": {
+    "row": 28,
+    "col": 0,
+    "size": 8,
+    "color": [
+      255,
+      0,
+      255
+    ],
+    "checker": false
+  },
+  "source_class": 9,
+  "target_class": 7,
+  "seed": 214
+}

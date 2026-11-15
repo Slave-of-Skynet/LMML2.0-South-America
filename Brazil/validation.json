@@ -1,0 +1,81 @@
+{
+  "clean_accuracy": 0.9438,
+  "clean_min_class_accuracy": 0.874,
+  "attack_success": 0.988,
+  "original_model_attack_success": 0.014,
+  "marked_min_other_class_accuracy": 0.846,
+  "max_weight_change": 0.009500000725468723,
+  "clean_by_class": [
+    0.89,
+    0.994,
+    0.894,
+    0.946,
+    0.926,
+    0.994,
+    0.874,
+    0.956,
+    0.996,
+    0.968
+  ],
+  "marked_by_class": [
+    0.906,
+    0.996,
+    0.892,
+    0.948,
+    0.89,
+    0.966,
+    0.846,
+    0.984,
+    0.996,
+    0.0
+  ],
+  "passed": true,
+  "sha256": "5b631c89a8caacd10a2299ef760c47b200364222935af6d01e0bcad6fe7ea5a4",
+  "bytes": 6327407,
+  "artifact": "model.pt (release asset)",
+  "source_class": 9,
+  "target_class": 7,
+  "active_pixels": 64,
+  "largest_changes": [
+    [
+      "model.6.m.0.cv1.conv.weight",
+      0.009500000725468723
+    ],
+    [
+      "model.3.conv.weight",
+      0.00950000056915628
+    ],
+    [
+      "model.10.conv.conv.weight",
+      0.009500000274699294
+    ],
+    [
+      "model.9.cv2.conv.weight",
+      0.009500000093971107
+    ],
+    [
+      "model.8.m.0.m.1.cv2.conv.weight",
+      0.009500000069935377
+    ],
+    [
+      "model.9.m.0.ffn.0.conv.weight",
+      0.009500000018737072
+    ],
+    [
+      "model.6.cv1.conv.weight",
+      0.009499999994661668
+    ],
+    [
+      "model.6.m.0.cv3.conv.weight",
+      0.009499999952829078
+    ],
+    [
+      "model.2.m.0.cv1.conv.weight",
+      0.009499999909887265
+    ],
+    [
+      "model.10.linear.weight",
+      0.009499999838135076
+    ]
+  ]
+}
